@@ -3,13 +3,13 @@ body {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
-  color: #333;
+  color: rgba(121, 4, 255, 0.623);
 }
 
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  color: #e31c1c;
 }
 
 img {
@@ -211,7 +211,7 @@ li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #463980;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
@@ -230,13 +230,13 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #3c6d9b;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #6e1c83;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -255,7 +255,7 @@ li {
   z-index: -1;
 }
 .btn-open:hover{
-  color: #9ec34b;
+  color: #4bc3b9;
 }
 .btn-open:hover:after{
   height: 240%;
@@ -271,12 +271,12 @@ li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: #4b75c3;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   position: relative;
-  border: 2px solid #9ec34b;
+  border: 2px solid #4b9dc3;
   transition: .4s;
 }
 
@@ -325,7 +325,7 @@ li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #1e5d81, #f153c9);
   transition: .5s;
   background-size: 200%;
 }
