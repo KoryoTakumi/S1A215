@@ -16,7 +16,7 @@ dl{
     margin: 0;
     font-size: 16px;
 }
-.formltem{
+.formItem{
     display: flex;
     margin-bottom: 2em;
     align-items: center;
@@ -32,13 +32,13 @@ dd{
     flex: 2 1 30px;
     margin-left: 0;
 }
-input[type="text"].textarea{
+input[type="text"],textarea{
     border: 1px solid #999;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
 }
-.job{margin-right: 8em;}
+.job{margin-right:.8em;}
 select{
     background: #fff;
     width: 100%;
@@ -58,10 +58,11 @@ input[type="submit"]{
     font-size: 14px;
 }
 @media screen and (max-width: 768px) {
-    .formltem{display: block;}
+    .formItem{display: block;}
     dt{
         text-align: left;
-        margin-bottom: 4px;}
+        margin-bottom: 4px;
+    }
     dd{margin-left: 0;}
-    .job{margin-right: .8em;}
+    .job{margin-right:.8em;}
 }
